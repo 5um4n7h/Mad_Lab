@@ -1,1 +1,1 @@
-[![name](output.jpg)]
+<img src="output.jpg">
