@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 	Double op2;
 	String op;
 	Boolean hasOp = false;
+	Boolean hasIp = false;
 
 
 	@Override
@@ -119,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
 		});
 
 		Plus.setOnClickListener(v -> {
-			if (hasOp) {
+			if (hasOp||!hasIp) {
 				Toast.makeText(this, "Please provide correct Input", Toast.LENGTH_SHORT).show();
 			} else {
 
@@ -132,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
 		});
 
 		Minus.setOnClickListener(v -> {
-			if (hasOp) {
+			if (hasOp||!hasIp) {
 				Toast.makeText(this, "Please provide correct Input", Toast.LENGTH_SHORT).show();
 			} else {
 
@@ -144,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
 			}
 		});
 		Multiply.setOnClickListener(v -> {
-			if (hasOp) {
+			if (hasOp||!hasIp) {
 				Toast.makeText(this, "Please provide correct Input", Toast.LENGTH_SHORT).show();
 			} else {
 
@@ -157,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
 		});
 
 		Devide.setOnClickListener(v -> {
-			if (hasOp) {
+			if (hasOp||!hasIp) {
 				Toast.makeText(this, "Please provide correct Input", Toast.LENGTH_SHORT).show();
 			} else {
 
@@ -187,11 +188,12 @@ public class MainActivity extends AppCompatActivity {
 			op = null;
 			op2 = null;
 			hasOp = false;
+			hasIp = false;
 		});
 	}
 
 	private void checkForOp() {
-
+		hasIp = true;
 		if (Input.getText().toString().equals("+") ||
 				Input.getText().toString().equals("-") ||
 				Input.getText().toString().equals("*") ||
@@ -201,7 +203,7 @@ public class MainActivity extends AppCompatActivity {
 	}
 
 	private void opPressed() {
-
+		hasIp  =false;
 		op1 = Double.parseDouble(Input.getText().toString());
 
 
