@@ -7,7 +7,7 @@
    website address isto be displayed. Insert a horizontal line between the job title and the phone
    number.
  
-2.Develop an Android application using controls like Button, TextView, EditText for designing a
+2. Develop an Android application using controls like Button, TextView, EditText for designing a
    calculator having basic functionality like Addition, Subtraction, Multiplication,and Division.
   
 3.Create a SIGN Up activity with Username and Password. Validation of password should happen
