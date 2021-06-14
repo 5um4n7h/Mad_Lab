@@ -1,11 +1,11 @@
 # Mad_Lab
 ### Mobile application development lab programs for CSE/ISE 6th sem (VTU)
 
-1.Create an application to design a Visiting Card. The Visiting card should have a company logo at the
- top right corner. The company name should be displayed in Capital letters, aligned to the center.
- Information like the name of the employee, job title, phone number, address, email, fax and the
- website address isto be displayed. Insert a horizontal line between the job title and the phone
- number.
+1. Create an application to design a Visiting Card. The Visiting card should have a company logo at the
+   top right corner. The company name should be displayed in Capital letters, aligned to the center.
+   Information like the name of the employee, job title, phone number, address, email, fax and the
+   website address isto be displayed. Insert a horizontal line between the job title and the phone
+   number.
  
 2.Develop an Android application using controls like Button, TextView, EditText for designing a
    calculator having basic functionality like Addition, Subtraction, Multiplication,and Division.
