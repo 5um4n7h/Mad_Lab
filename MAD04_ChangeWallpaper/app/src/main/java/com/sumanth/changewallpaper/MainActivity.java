@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
 	}
 
 	public void setWallpaper() {
-
 		myTimer.schedule(new TimerTask() {
 			@Override
 			public void run() {
@@ -47,7 +46,5 @@ public class MainActivity extends AppCompatActivity {
 
 			}
 		}, 0, 30000);   // to repeat the TimerTask() for every 30 seconds
-
-
 	}
 }
