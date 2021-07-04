@@ -1,1 +1,1 @@
-<img src="output.png" width="300px" height="650px">
+<img src="output.jpg" width="300px" height="650px">
